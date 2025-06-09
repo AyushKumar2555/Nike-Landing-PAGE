@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+   font-family:"Inter",sans-serif ;
+   font-weight: 400;
+}
+.main{
+    height: 100%;
+    /* width: 100%; */
+    background-color: #d0d4D5;
+}
+.nav img{
+    height: 50px;
+    width: auto;
+}
+.nav{
+    height: 15vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-1{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-between;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+.nav-2{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    margin-right: 10vh;
+}
+.nav-2 img{
+    height: 2.5vh;
+
+}
+.content{
+    height:85vh;
+    padding-left: 14vh;
+    padding-top: 10vh;
+    display: flex;
+}
+.content-left{
+    height: 100%;
+    width: 40%;
+}
+.content-left h5{
+    color: grey;
+    letter-spacing: 0.1vh;
+    font-size: 1.25vw;
+    word-spacing: 0.25vh;
+}
+.content-left h1{
+    margin-top: 1vw;
+    color:black;
+    letter-spacing: 0.1vh;
+    font-size: 5vw;
+    font-weight: 600;
+    word-spacing: 0.25vh;
+    text-transform: uppercase;
+}
+.content-left p{
+    margin-top: 1vw;
+    color: grey;
+    letter-spacing: 0.1vh;
+    word-spacing: 0.5vh;
+}
+.content-left button{
+    margin-top: 1vw;
+    letter-spacing: 0.1vh;
+    background-color: black;
+    color: #d0d4D5;
+    width: 8vw;
+    height: 5vh;
+    font-weight: 500;
+    font-size: 15px;
+    /* word-spacing: 0.5vh; */
+    border-radius: 50px;
+    border-top-left-radius:0px;
+}
+.content-right{
+    /* background-color: red; */
+    height: 100%;
+    width: 60%;
+    padding: 10px  100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.content-right::-webkit-scrollbar{
+    display: none;
+}
+.products{
+    height: 360px;
+    width: 250px;
+    position: relative;
+    box-shadow: 0px 5px 10px 5px  gray;
+    background-color: #1011;
+    display: inline-block;
+    margin-right: 20px;
+}
+.products img {
+ height: 65%;
+ width: 100%;
+ object-fit: cover;
+}
+.products h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+.category,.color{
+    text-align: center;
+    /* margin-top: 10px; */
+    font-size: 15px;
+}
+.price{
+    text-align: center;
+    margin-top: 8px;
+}
